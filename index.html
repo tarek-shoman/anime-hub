@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otaku's - Your Anime Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>Otaku's</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">Browse</a>
+                <a href="#">Top Anime</a>
+                <a href="#">News</a>
+            </div>
+            <div class="nav-search">
+                <input type="search" placeholder="Search anime...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="featured-banner">
+            <div class="banner-images">
+                <div class="banner-image active" style="background-image: url('https://images2.alphacoders.com/846/846487.jpg')"></div>
+                <div class="banner-image" style="background-image: url('https://images5.alphacoders.com/132/1325614.jpeg')"></div>
+            </div>
+            <div class="banner-content">
+                <h1>Discover Amazing Anime</h1>
+                <p>Explore the latest and greatest in anime entertainment</p>
+                <div class="banner-buttons">
+                    <button class="primary-btn">Browse Now</button>
+                    <button class="secondary-btn">Top Charts</button>
+                </div>
+            </div>
+        </div>
+
+        <section id="trending" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Trending Now</h2>
+                <a href="#" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="anime-grid" id="trending-content"></div>
+        </section>
+
+        <section id="popular" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Popular This Season</h2>
+                <a href="#" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="anime-grid" id="popular-content"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Otaku's</h3>
+                <p>Your ultimate destination for anime entertainment</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#">Home</a>
+                <a href="#">Browse</a>
+                <a href="#">Top Anime</a>
+                <a href="#">News</a>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Otaku's. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
